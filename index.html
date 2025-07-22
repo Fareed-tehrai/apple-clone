@@ -1,0 +1,307 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>apple clone</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+      integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+  <body>
+    <!--! NAVBAR !-->
+    <div class="upper-color">
+      <div class="navbar">
+        <div class="logo">
+          <a class="hover" href="https://www.apple.com/" target="_blank"
+            ><i class="fa-brands fa-apple"></i
+          ></a>
+        </div>
+        <!--! INNER NAVAR !-->
+        <div class="inner-nav">
+          <a class="hover" href="#">Store</a>
+          <a class="hover" href="#">Mac</a>
+          <a class="hover" href="#">ipad</a>
+          <a class="hover" href="#">iphone</a>
+          <a class="hover" href="#">Vision</a>
+          <a class="hover" href="#">AirPods</a>
+          <a class="hover" href="#">TV & Home</a>
+          <a class="hover" href="#">Entertainment</a>
+          <a class="hover" href="#">Accessories</a>
+          <a class="hover" href="#">Support</a>
+        </div>
+
+        <!--! NAVAR LAST !-->
+        <div class="nav-last">
+          <i class="fa-solid fa-magnifying-glass search hover"></i>
+          <i class="fa-solid fa-bag-shopping shopping hover"></i>
+        </div>
+      </div>
+
+      <!-- ----------------------- -->
+      <!--! SECOND NAVBAR !-->
+      <!-- ----------------------- -->
+      <div class="sec-main">
+        <div class="sec-navbar">
+          <div class="apple-head">
+            <a href="#">Apple Vision Pro</a>
+          </div>
+          <!--! LINKS !-->
+
+          <div class="sec-links">
+            <a href="#">Overview</a>
+            <a href="#">Guide Tour</a>
+            <a href="#">Tech Specs</a>
+            <input type="button" value="Book a demo" />
+          </div>
+          <!--! SECOND NAVBAR BUTTONS !-->
+          <div class="buy-but">
+            <input type="button" value="Buy" />
+          </div>
+        </div>
+      </div>
+      <!--! 1ST IMAGE !-->
+      <div class="hero">
+        <div class="portrait-img">
+          <div class="main-img">
+            <img src="data:image/jpeg;base64,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" alt="hero img">
+            />
+          </div>
+        </div>
+        <!--! HEADING !-->
+        <div class="hero-main-heading">
+          <div class="hero-main-1">
+            <div class="hero-main-2">
+              <i class="fa-brands fa-apple"><span>Vision Pro</span></i>
+            </div>
+          </div>
+          <br />
+          <!--! TEXT !-->
+          <div class="hero-main-text">
+            <div class="hero-text">
+              <a href="#"
+                >Watch Tha Guide Tour <i class="fa-solid fa-chevron-right"></i
+              ></a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- ----------------------- -->
+    <!--! 2ND PORTION !-->
+    <!--? ______________________ ?-->
+    <!--! CONTENT AREA !-->
+    <!-- ----------------------- -->
+    <div class="content">
+      <!-- todo 1st blank -->
+      <div class="blank"></div>
+      <div class="heading-h">
+        <h1>Welcome to the era of spatial computing.</h1>
+      </div>
+      <!-- todo -->
+      <!--! 1st video !-->
+      <!-- todo -->
+      <div class="video-01">
+        <div class="video-1">
+        <img src="https://www.apple.com/v/apple-vision-pro/c/images/overview/foundation/spatial_computing_startframe__rtxdvqb0m1ei_small.jpg" alt="">
+        </div>
+      </div>
+      <!--? ------------------ -->
+      <!-- ___________________ -->
+      <!-- todo 2nd blank -->
+      <!-- ___________________ -->
+      <!--? ------------------ -->
+      <div class="blank"></div>
+      <div class="heading-h">
+        <h1>
+          Apple Vision Pro seamlessly blends digital content with your physical
+          space.
+        </h1>
+      </div>
+      <!-- todo -->
+      <!--! 2nd video !-->
+      <!-- todo -->
+      <div class="video-02">
+        <div class="video-2">
+         <img src="https://www.apple.com/v/apple-vision-pro/c/images/overview/foundation/digital_canvas_startframe__dn0uk8v419km_small.jpg" alt="">
+            <!-- <video
+            autoplay
+            height="720"
+            src="././IMAGES/large (1).mp4"
+            controls
+            loop
+          ></video> -->
+        </div>
+      </div>
+
+      <!--? ------------------ -->
+      <!-- ___________________ -->
+      <!-- todo 3rd blank -->
+      <!-- ___________________ -->
+      <!--? ------------------ -->
+
+      <div class="blank"></div>
+      <div class="heading-h">
+        <h1>You navigate simply by using your eyes, hands, and voice.</h1>
+      </div>
+      <!-- todo -->
+      <!--! 3rd video !-->
+      <!-- todo -->
+      <div class="video-03">
+        <div class="video-3">
+          <img src="https://www.apple.com/v/apple-vision-pro/c/images/overview/foundation/inputs_startframe__ggmu2xwjf662_small.jpg" alt="">
+        </div>
+      </div>
+      <!--? ------------------ -->
+      <!-- ___________________ -->
+      <!-- todo 4th blank -->
+      <!-- ___________________ -->
+      <!--? ------------------ -->
+      <div class="blank"></div>
+      <div class="heading-h">
+        <h1>
+          So you can do the things you love in ways never before possible.
+        </h1>
+      </div>
+      <!-- todo -->
+      <!--! 4th video !-->
+      <!-- todo -->
+      <div class="video-04">
+        <div class="video-4">
+          <video
+            autoplay
+            height="720"
+            src="././IMAGES/large (3).mp4"
+            controls
+          ></video>
+        </div>
+      </div>
+      <!--* LAST BLANK *-->
+      <div class="blank"></div>
+      <div class="heading-h">
+        <h1>You’ve never seen everything like this before.</h1>
+      </div>
+    </div>
+    <br />
+    <!-- ----------------------- -->
+    <!--! 3rd PORTION !-->
+    <!--? ______________________ ?-->
+    <!--! CONTENT AREA !-->
+    <!-- ----------------------- -->
+    <header>
+      <div class="portion-3rd">
+        <div class="port-3-head">
+          <i class="fa-brands fa-apple"><span>Vision Pro</span></i>
+        </div>
+        <!--! portion links !-->
+        <div class="port-3-links">
+          <!--! links 1 !-->
+          <div class="port-3-link-1">
+            <a href="#"
+              >Watch the film
+              <i class="fa-regular fa-circle-play"></i>
+            </a>
+          </div>
+          <!--! links 2 !-->
+          <div class="port-3-link-2">
+            <a href="#">Watch the Guide tour</a
+            ><i class="fa-solid fa-chevron-right"> </i>
+          </div>
+        </div>
+      </div>
+      <!--! PORTION 3 IMAGE !-->
+      <div class="port-3-img">
+        <img
+          height="530px"
+          width="1300px"
+          src="././IMAGES/portion-3.jpg"
+          alt="img"
+        />
+      </div>
+      <div class="port-3-button">
+        <button><i class="fa-regular fa-plus"></i>Take a closer look</button>
+      </div>
+      <div class="blank"></div>
+    </header>
+    <!-- ----------------------- -->
+    <!--! 4th PORTION !-->
+    <!--? ______________________ ?-->
+    <!--! CONTENT AREA !-->
+    <!-- ----------------------- -->
+    <div class="portion-4">
+      <!--! HEADING !-->
+      <div class="port-4-head">
+        <h2>Photos and Videos</h2>
+      </div>
+      <!--! PARAGRAPH !-->
+      <div class="port-4-para">
+        <p>Be in the moment.</p>
+        <p>All over again.</p>
+      </div>
+
+      <!--! PORTION 4 VIDEO  !-->
+      <div class="video-05">
+        <div class="video-5">
+          <video
+            autoplay
+            height="720"
+            src="././IMAGES/large (4) (1).mp4"
+            controls
+          ></video>
+        </div>
+      </div>
+    </div>
+    <!-- COLUMN -->
+    <div class="columns">
+      <div class="column-head">
+        <h3>Your memories come alive.</h3>
+      </div>
+      <div class="column-para">
+        <p>
+          Apple Vision Pro is Apple’s first 3D camera. You can capture magical
+          spatial photos and spatial videos in 3D, then relive those cherished
+          moments like never before with immersive Spatial Audio. Your existing
+          library of photos and videos looks incredible at remarkable scale. And
+          panoramas wrap around you — making you feel like you’re standing right
+          where you took them. You can also take spatial videos with iPhone 15
+          Pro, then view them on Apple Vision Pro.
+        </p>
+      </div>
+    </div>
+    <div class="port-4-button">
+      <button>
+        <i class="fa-regular fa-plus"></i>Learn more about photos and videos
+      </button>
+    </div>
+    <!-- ----------------------- -->
+    <!--! 5th PORTION !-->
+    <!--? ______________________ ?-->
+
+    <!--! DISPLAY IMAGE !-->
+    <!-- ----------------------- -->
+    <div class="container">
+      <div class="wrapper">
+        <div class="wrapper-holder">
+          <div id="img-1"></div>
+          <div id="img-2"></div>
+          <div id="img-3"></div>
+          <div id="img-4"></div>
+          <div id="img-5"></div>
+        </div>
+      </div>
+      <div class="button-holder">
+        <a href="#img-1" class="button"></a>
+        <a href="#img-2" class="button"></a>
+        <a href="#img-3" class="button"></a>
+        <a href="#img-4" class="button"></a>
+        <a href="#img-5" class="button"></a>
+      </div>
+    </div>
+  </body>
+</html>
